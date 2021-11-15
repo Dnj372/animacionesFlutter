@@ -73,10 +73,18 @@ class menuPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Color.fromARGB(200, 51, 236, 255),
           title: Text('Supermercado'),
         ),
         body: Table(
           children: <TableRow>[
+            TableRow(children: [
+              Container(),
+              Container(
+                height: 15,
+              ),
+              Container()
+            ]),
             TableRow(children: [
               Container(),
               Text('Lista de productos:'),
